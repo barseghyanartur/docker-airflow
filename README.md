@@ -117,6 +117,10 @@ or with your docker-compose set up like this:
 
     docker-compose -f docker-compose-CeleryExecutor.yml run --rm webserver airflow list_dags
 
+or with your docker-compose using exec:
+
+    docker-compose -f docker-compose-LocalExecutor.yml exec webserver airflow list_dags
+
 You can also use this to run a bash shell or any other command in the same environment that airflow would be run in:
 
     docker run --rm -ti puckel/docker-airflow bash
