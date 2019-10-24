@@ -1,0 +1,23 @@
+[run]
+omit =
+    tests/*
+    tests.py
+    *tests_*.py
+    /code/evault/*
+    /code/bcmp/api/graphql/tests/*
+    /code/bcmp/api/tests.py
+    /code/bcmp/tests/*
+    /code/bencom/ip_whitelist/tests/*
+    /code/bencom/sso/tests/*
+    /code/bencom/tests/*
+    /code/django_cassandra_uploads/tests.py
+    /code/bcmp/categories/migrations/*
+    /code/bcmp/contracts/migrations/*
+    /code/bcmp/folders/migrations/*
+    /code/bcmp/informationextraction/migrations/*
+    /code/bencom/address/migrations/*
+    /code/bencom/auth/migrations/*
+    /code/bencom/messages/migrations/*
+    /code/bencom/persons/migrations/*
+    /code/setup.py
+    *wsgi.py
